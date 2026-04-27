@@ -12,7 +12,7 @@
 
 ## Visual quality
 
-- Anti-aliasing — jitter rays within each pixel and average (already has a samples param, just needs random offsets)
+- Anti-aliasing — jitter rays within each pixel and average
 - Soft shadows — replace point lights with area lights and cast multiple shadow rays
 - Depth of field — perturb ray origin along a simulated lens aperture
 - Environment maps — replace the sky gradient with an HDR image lookup for realistic reflections
